@@ -15,4 +15,7 @@
               <icon src="res/android/hdpi.png" density="hdpi" />
               <icon src="res/android/xhdpi.png" density="xhdpi" />
      </platform>
+      <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.plugin.sms" />
+    </feature>
 </widget>

@@ -1,2 +1,2 @@
-C:\phonegap\catja\platforms\android\ant-build\AndroidManifest.xml : \
-C:\phonegap\catja\platforms\android\AndroidManifest.xml \
+C:\phonegap\catja\Heater-Control\platforms\android\ant-build\AndroidManifest.xml : \
+C:\phonegap\catja\Heater-Control\platforms\android\AndroidManifest.xml \
