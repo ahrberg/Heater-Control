@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.ahrberg.catja" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Catja</name>
+    <description>
+        Heater control for SMS controled Eberspächer
+    </description>
+    <author email="ahrberg@kth.se" href="http://www.geahr.se">
+        Ahrberg Dev Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <platform name="android">
+              <icon src="res/android/mdpi.png" density="ldpi" />
+              <icon src="res/android/mdpi.png" density="mdpi" />
+              <icon src="res/android/hdpi.png" density="hdpi" />
+              <icon src="res/android/xhdpi.png" density="xhdpi" />
+     </platform>
+</widget>
