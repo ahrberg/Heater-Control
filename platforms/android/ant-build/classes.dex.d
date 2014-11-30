@@ -30,4 +30,5 @@ C:\phonegap\catja\Heater-Control\platforms\android\ant-build\classes\org\apache\
 C:\phonegap\catja\Heater-Control\platforms\android\ant-build\classes\org\apache\cordova\dialogs\Notification.class \
 C:\phonegap\catja\Heater-Control\platforms\android\ant-build\classes\org\apache\cordova\plugin\sms\Sms$1.class \
 C:\phonegap\catja\Heater-Control\platforms\android\ant-build\classes\org\apache\cordova\plugin\sms\Sms.class \
+C:\phonegap\catja\Heater-Control\platforms\android\ant-build\classes\uk\co\whiteoctober\cordova\AppVersion.class \
 C:\phonegap\catja\Heater-Control\platforms\android\ant-build\dexedLibs\classes-492f2b587e8bfc5f7c187186aaa452c1.jar \

@@ -1,6 +1,6 @@
 var HomeView = function() {
 
-	var number = '0764253283';//Phone number
+	var number = window.localStorage.getItem("phoneNumber");//Phone number
 	var error = function(e) {
 		alert('Message failed: ' + e)
 	};

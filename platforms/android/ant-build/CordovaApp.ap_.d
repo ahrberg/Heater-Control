@@ -57,6 +57,7 @@ C:\phonegap\catja\Heater-Control\platforms\android\assets\www\img\logo.png \
 C:\phonegap\catja\Heater-Control\platforms\android\assets\www\js\app.js \
 C:\phonegap\catja\Heater-Control\platforms\android\assets\www\js\HomeView.js \
 C:\phonegap\catja\Heater-Control\platforms\android\assets\www\js\index.js \
+C:\phonegap\catja\Heater-Control\platforms\android\assets\www\js\SettingsView.js \
 C:\phonegap\catja\Heater-Control\platforms\android\assets\www\lib\fastclick.js \
 C:\phonegap\catja\Heater-Control\platforms\android\assets\www\lib\handlebars.js \
 C:\phonegap\catja\Heater-Control\platforms\android\assets\www\lib\jquery.js \
@@ -66,6 +67,7 @@ C:\phonegap\catja\Heater-Control\platforms\android\assets\www\plugins\nl.x-servi
 C:\phonegap\catja\Heater-Control\platforms\android\assets\www\plugins\org.apache.cordova.device \
 C:\phonegap\catja\Heater-Control\platforms\android\assets\www\plugins\org.apache.cordova.dialogs \
 C:\phonegap\catja\Heater-Control\platforms\android\assets\www\plugins\org.apache.cordova.plugin.sms \
+C:\phonegap\catja\Heater-Control\platforms\android\assets\www\plugins\uk.co.whiteoctober.cordova.appversion \
 C:\phonegap\catja\Heater-Control\platforms\android\assets\www\plugins\nl.x-services.plugins.toast\test \
 C:\phonegap\catja\Heater-Control\platforms\android\assets\www\plugins\nl.x-services.plugins.toast\www \
 C:\phonegap\catja\Heater-Control\platforms\android\assets\www\plugins\nl.x-services.plugins.toast\test\tests.js \
@@ -78,4 +80,6 @@ C:\phonegap\catja\Heater-Control\platforms\android\assets\www\plugins\org.apache
 C:\phonegap\catja\Heater-Control\platforms\android\assets\www\plugins\org.apache.cordova.dialogs\www\android\notification.js \
 C:\phonegap\catja\Heater-Control\platforms\android\assets\www\plugins\org.apache.cordova.plugin.sms\www \
 C:\phonegap\catja\Heater-Control\platforms\android\assets\www\plugins\org.apache.cordova.plugin.sms\www\sms.js \
+C:\phonegap\catja\Heater-Control\platforms\android\assets\www\plugins\uk.co.whiteoctober.cordova.appversion\www \
+C:\phonegap\catja\Heater-Control\platforms\android\assets\www\plugins\uk.co.whiteoctober.cordova.appversion\www\AppVersionPlugin.js \
 C:\phonegap\catja\Heater-Control\platforms\android\ant-build\AndroidManifest.xml \
