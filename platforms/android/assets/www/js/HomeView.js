@@ -1,6 +1,12 @@
-var HomeView = function(service) {
+var HomeView = function() {
 
-	var number = '0764253283';
+	var number = '0764253283';//Phone number
+	var error = function(e) {
+		alert('Message failed: ' + e)
+	};
+	var sent = function(message) {
+		window.plugins.toast.showShortBottom(message)
+	};
 
 	this.render = function() {
 		this.$el.html(this.template());
@@ -22,39 +28,33 @@ var HomeView = function(service) {
 
 	this.heaterOn = function(event) {
 		event.preventDefault();
-		sendSms(number, 'Heater turned on', 'on');
+		sms.send(number, 'on', '', sent('Heater turned on'), error);
 	};
 
 	this.heaterOff = function(event) {
 		event.preventDefault();
-		sendSms(number, 'Heater turned off', 'off');
+		sms.send(number, 'off', '', sent('Heater turned of'), error);
 	};
 
 	this.temp = function(event) {
 		event.preventDefault();
-		sendSms(number, 'Temp request sent', 'temp');
+		sms.send(number, 'temp', '', sent('Temp request sent'), error);
 	};
 
 	this.voltage = function(event) {
 		event.preventDefault();
-		sendSms(number, 'Voltage request sent', 'voltage');
+		sms.send(number, 'voltage', '', sent('Voltage request sent'), error);
 	};
 
 	this.status = function(event) {
 		event.preventDefault();
-		sendSms(number, 'Status request sent', 'status');
+		sms.send(number, 'status', '', sent('Status request sent'), error);
 	};
 
 	this.help = function(event) {
 		event.preventDefault();
-		sendSms(number, 'Help request sent', 'help');
+		sms.send(number, 'help', '', sent('Help request sent'), error);
 	};
-
-	function sendSms(number, message, smsMessage) {
-		var intent = "";
-		sms.send(number, smsMessage, intent, window.plugins.toast.showShortBottom(message), window.plugins.toast.showShortBottom('Error'));
-	}
-
 
 	this.initialize();
 
